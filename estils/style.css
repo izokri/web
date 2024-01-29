@@ -1,11 +1,9 @@
-/* Add any global styles if needed */
 
 body {
     font-family: 'Open Sans', sans-serif;
-    padding-top: 56px; /* Adjust based on your navbar height */
+    padding-top: 56px; 
 }
 
-/* Barra de navegación */
 .navbar {
     background-color: #171A21;
 }
@@ -34,7 +32,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Contacto */
 footer {
     background-color: #3498db;
     color: white;
