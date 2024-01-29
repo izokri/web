@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: "Honk";
+    src: url(Honk-Regular.ttf
+    ) 
+  }
+
+  @font-face {
+    font-family: "Singleday";
+    src: url(SingleDay-Regular.ttf) 
+  }
+
+  .Honk {
+    font-family: "Honk";
+  }
+
+  .SingleDay {
+    font-family: "Singleday";
+  }
+
+
+

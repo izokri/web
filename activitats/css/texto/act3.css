@@ -1,0 +1,27 @@
+h1    {    letter-spacing: 15px;
+
+}  
+
+h2    {    letter-spacing: 10px;
+    
+
+}  
+
+p.mayuscula {
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+}
+
+
+h1:hover {
+    font-style: italic;
+    color: blue;
+}
+
+h2:hover {
+    font-weight: bold;
+    color: red;
+}
