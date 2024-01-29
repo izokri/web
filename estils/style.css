@@ -1,0 +1,77 @@
+/* Add any global styles if needed */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 56px; /* Adjust based on your navbar height */
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #171A21;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.wrapper {
+    padding: 80px 20px;
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Contacto */
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: re;
+    width: 100%;
+    bottom: 0;
+}
+
+.btn-naranja {
+    background-color: rgb(255, 111, 0) !important;
+    border-color: rgb(255, 111, 0) !important;
+}
+
+h3.naranja {
+    color: rgb(255, 111, 0) !important;
+}
+
+.btn {
+    color: black;
+    font-weight: bold;
+}
+.btn :hover {
+    color: white;
+}
+.naranja {
+    color: rgb(255, 111, 0) !important;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.negre {
+    font-weight: bold;
+    color: #171A21;
+}

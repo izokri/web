@@ -1,13 +1,228 @@
 <!DOCTYPE html>
-<HTML>
-  <head>
-    <title>Mi primer WEB</title>
-  </head>
-  <body>
-  
-      <h1>Hola mundo 2!</h1>
-      <p>Este es un ejemplo del uso de HTML para crear un documento web que nuestro navegador es capaz de interpretar.</p>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estils/style.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
 
-      <a href="activitats/activitats.html"> Anar a activitats</a>
-  </body>  
-</HTML>
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+
+        .jumbotron {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 80px 0;
+        }
+
+        .jumbotron h1 {
+            font-size: 2.5rem;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .box {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+
+        .social li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-icon {
+    width: 40px; 
+    margin: 5px; 
+}
+        .social a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#top">Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#queutilizo">Trabajo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#actividades">Actividades HTML y CSS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#social">Redes Sociales</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <img src="imagenes/fotoperfil2.png" alt="Imagen de perfil" width="200" class="img-fluid rounded-circle">
+        <h1 class="mt-3">¡Hola, soy Ilias Zokri!</h1>
+        <p class="lead">Estudio DAM en el Instituto Caparrella.</p>
+        <a href="#quiensoy" class="btn btn-primary">Sobre Mí</a>
+    </div>
+</div>
+
+
+<div class="container">
+    <section class="box">
+        <a class="btn btn-social" id="quiensoy" href="#">Quien soy</a>
+    </section>
+    <br><br><br><br>
+    <img src="imagenes/Qui sóc.png" width="100%" height="auto" class="img-fluid">
+    <br><br><br><br><br><br>
+    <section class="box">
+      <a class="btn btn-social" id="queutilizo" href="#">Con que trabajo</a></section>
+      <br><br><br><br>
+    <img src="imagenes/Qui sóc (1).png" width="100%" height="auto" class="img-fluid">
+    <br><br><br><br><br><br>
+  </section>
+    <section class="box">
+        <a href="#work" class="btn btn-social" id="actividades">Algo de mi trabajo más reciente</a>
+    </section>
+</div>
+
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <section class="box">
+                <a href="/activitats/activitats.html">
+                    <img src="imagenes/html.png" width="150px" height="100px" alt="HTML" class="img-fluid">
+                </a>
+                <h3><a class="naranja" href="/activitats/activitats.html">HTML</a></h3>
+                <a href="activitats/activitats.html" class="btn btn-primary btn-naranja">Accede a las actividades</a>
+            </section>
+        </div>
+        <div class="col-md-6">
+            <section class="box">
+                <a href="/activitats/activitatscss.html">
+                    <img src="imagenes/css.png" width="105px" height="100px" alt="CSS" class="img-fluid">
+                </a>
+                <h3><a href="/activitats/activitatscss.html">CSS</a></h3>
+                <a href="#portfolio" class="btn btn-primary">Accede a las actividades</a>
+            </section>
+        </div>
+    </div>
+</div>
+
+<section class="box">
+    <a href="#bozeto" class="btn btn-social">Boceto</a>
+</section>
+
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-12 text-center">
+            <section class="box">
+                <img id="bozeto" class="centered img-fluid" src="imagenes/bozeto.png" alt="Trabajo 1">
+                <br>
+                <a href="activitats/esbosos.html" class="btn btn-primary">Accede al boceto</a>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <header class="mt-5">
+        <h2 class="text-center" id="contact">¡Contactame!</h2>
+        <br>
+    </header>
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <form method="post" action="#" >
+                <div class="form-group">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Nombre de la corporación">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" class="form-control" placeholder="Mensaje"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submi" class="btn btn-secondary" value="Enviar">
+                    <input type="reset" class="btn btn-secondary"  value="Borrar">
+                </div>
+            </form>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="row">
+        <div class="col-md-12">
+         
+            
+           
+          
+           <section class="box">
+            <h3 class="text-center mb-4">Encuéntrame en...</h3>
+            <table class="mx-auto">
+                <tr id="social">
+                    <td><a href="https://www.facebook.com/inscaparrella/?locale=es_ES" class="social-link"><img src="imagenes/facebook.png" alt="Facebook" class="social-icon"></a></td>
+                    <td><a href="https://twitter.com/inscaparrella?lang=es" class="social-link"><img src="imagenes/twitter.png" alt="Twitter" class="social-icon"></a></td>
+                    <td><a href="http://iescaparrella.cat/" class="social-link"><img src="imagenes/dribbble.png" alt="Dribbble" class="social-icon"></a></td>
+                    <td><a href="http://iescaparrella.cat/" class="social-link"><img src="imagenes/linkedin.png" alt="LinkedIn" class="social-icon"></a></td>
+                    <td><a href="http://iescaparrella.cat/" class="social-link"><img src="imagenes/tumblr.png" alt="Tumblr" class="social-icon"></a></td>
+                    <td><a href="https://www.youtube.com/@InstitutCaparrella/featured" class="social-link"><img src="imagenes/youtube.png" alt="Youtube" class="social-icon"></a></td>
+                </tr>
+            </table>
+          </section><br><br>
+
+
+        </div>
+    </div>
+</div>
+ </section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="" class="btn btn-social">Ilias Zokri &copy; 2024</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
