@@ -1,0 +1,16 @@
+ h1    {    letter-spacing: 15px;
+
+}  
+
+h2    {    letter-spacing: 10px;
+    
+
+}  
+
+p.mayuscula {
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+}
