@@ -1,5 +1,7 @@
-strong {
+.strong {
     font-weight: bold;
+    text-transform: uppercase;
+
 }
 .amarilloresalto{
     background-color: yellow;
